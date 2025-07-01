@@ -37,7 +37,7 @@
 
 .navbar-menu {
   display: flex;
-  gap: 40px; /* Increased gap */
+  gap: 4px; /* Increased gap */
   align-items: center;
 }
 
@@ -76,6 +76,29 @@
   border-radius: 2px;
   transition: 0.3s;
 }
+
+.navbar-avatar {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  transition: transform 0.2s ease;
+}
+
+.navbar-avatar img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
 
 @media (max-width: 1024px) {
   .navbar-container {
